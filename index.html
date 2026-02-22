@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixel Firefight</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="hud">
+        <div>得分：<span id="score">0</span></div>
+        <div>生命：<span id="hp">100</span></div>
+        <div>剩余敌人：<span id="enemyCount">0</span></div>
+      </header>
+      <canvas id="game" width="960" height="540"></canvas>
+      <section id="overlay" class="overlay">
+        <h1>Pixel Firefight</h1>
+        <p>WASD 移动，鼠标瞄准，左键射击，空格冲刺</p>
+        <button id="startBtn">开始游戏</button>
+      </section>
+    </main>
+    <script src="./game.js"></script>
+  </body>
+</html>
