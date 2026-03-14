@@ -1,4 +1,0 @@
-torch
-pandas
-jieba
-scikit-learn
